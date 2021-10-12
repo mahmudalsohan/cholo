@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "93075970842",
+    "project_id": "cholo-3f50f",
+    "storage_bucket": "cholo-3f50f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:93075970842:android:504f3f13eb69305f2faaa3",
+        "android_client_info": {
+          "package_name": "com.example.cholo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "93075970842-i11lvq4ovbbievkmrhe3m0a1uj4t8cuf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cholo",
+            "certificate_hash": "6e798345520b0debf1cde4bc464555c7cc7c140e"
+          }
+        },
+        {
+          "client_id": "93075970842-p9rldhmhq34hh58gtecipaai9980ifdb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADOXs5xFbMqNaAMZLoke49nmudZsh7_Eg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "93075970842-p9rldhmhq34hh58gtecipaai9980ifdb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
