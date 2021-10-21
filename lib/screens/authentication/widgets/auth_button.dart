@@ -3,10 +3,10 @@ import 'package:flutter/material.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:get/get_navigation/src/extension_navigation.dart';
 
-class ReusableButton extends StatelessWidget {
+class AuthButton extends StatelessWidget {
   final Function onTap;
   final String text;
-  const ReusableButton({Key? key, required this.onTap, required this.text})
+  const AuthButton({Key? key, required this.onTap, required this.text})
       : super(key: key);
 
   @override
@@ -20,12 +20,12 @@ class ReusableButton extends StatelessWidget {
         height: 50,
         decoration: const BoxDecoration(
           color: Colors.yellow,
-          borderRadius: BorderRadius.all(Radius.circular(20.0)),
+          borderRadius: BorderRadius.all(Radius.circular(30.0)),
         ),
         child: Center(
           child: Text(
             text,
-            style: buttonTextStyle,
+            style: kButtonTextStyle,
           ),
         ),
       ),

@@ -6,7 +6,7 @@ import 'package:get/get.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await firebaseInitialization.then((value) {
+  await initializeFirebase.then((value) {
     Get.put(AppController());
     Get.put(AuthController());
   });

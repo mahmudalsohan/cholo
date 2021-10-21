@@ -1,25 +1,25 @@
 import 'package:flutter/material.dart';
 
-const TextStyle titleTextStyle = TextStyle(
+const TextStyle kTitleTextStyle = TextStyle(
   fontFamily: "Bolt",
   color: Colors.black,
   fontSize: 30,
   fontWeight: FontWeight.bold,
 );
 
-const TextStyle buttonTextStyle = TextStyle(
+const TextStyle kButtonTextStyle = TextStyle(
   fontFamily: "Bolt",
   color: Colors.white,
   fontSize: 20,
 );
 
-const TextStyle plainTextStyle = TextStyle(
+const TextStyle kPlainTextStyle = TextStyle(
   fontFamily: "Bolt",
   color: Colors.black,
   fontSize: 15,
 );
 
-const TextStyle linkTextStyle = TextStyle(
+const TextStyle kLinkTextStyle = TextStyle(
   fontFamily: "Bolt",
   color: Colors.blue,
   fontSize: 15,
